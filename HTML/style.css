@@ -1,0 +1,21 @@
+#principal{
+    color:rgb(255, 255, 0) ;
+}
+
+#Titulo{
+    color:rgba(0, 100, 200, 0.3);
+}
+
+.texto_verde{
+    color: green;
+}
+#arroz{
+    color: bisque;
+}
+#feijao{
+    color: chocolate
+    ;
+}
+#refrigerante{
+    color: rgb(0, 20, 255);
+}
