@@ -1,11 +1,19 @@
-#principal{
-    color:rgb(255, 255, 0) ;
-}
 
+#paragrafos{
+    /*color:rgb(43, 23, 223) ;*/
+    background-color: brown;
+    /*background-image: url(./Imagens/Pexels-Banco-de-Imagens-gratis-Des1gnON.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-attachment: fixed;*/
+}
+.subDiv{
+    background-color: blue;
+}
 #Titulo{
     color:rgba(0, 100, 200, 0.3);
+    
 }
-
 .texto_verde{
     color: green;
 }
@@ -18,4 +26,56 @@
 }
 #refrigerante{
     color: rgb(0, 20, 255);
+}
+#cm{
+    background-color: blue;
+    width: 1cm ;
+    height: 1cm ;
+}
+#mm{
+    background-color: red;
+    width: 1mm ;
+    height: 1mm ;
+}
+#in{
+    background-color: blue;
+    width: 1in ;
+    height: 1in ;
+}
+#px{
+    background-color: red;
+    width: 10px ;
+    height: 10px ;
+}
+#pt{
+    background-color: blue;
+    width: 10pt ;
+    height: 10pt ;
+}
+#pc{
+    background-color: red;
+    width: 1pc ;
+    height: 1pc ;
+}
+.container{
+   /* font-size: 25vmax;*/
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+.inside{
+   /* font-size: 2em; */
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+#base{
+    height: 10px;
+    background-color: red;
+}
+#container{
+    background-color: blue;
+    color: white;
+    padding-top: 10px;
+    
 }
