@@ -1,0 +1,15 @@
+p{
+    color: red;
+    text-indent: 25px;
+    text-shadow: 1px 1px #bbb;
+    /* text-decoration: underline overline line-through; */
+    /* letter-spacing: 1.2px; */
+    /* line-height: 200%; */
+    /* word-spacing: 5px; */
+    /* text-transform: capitalize; */
+    /* text-align: justify; */
+
+}
+a{
+    text-decoration: none;
+}
