@@ -1,0 +1,24 @@
+.links{
+    text-decoration: none;
+    color: #bc2035;
+    /* background: #bc2035;  */
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    border: 2px solid #bc2035;
+}
+
+/* .links:visited{
+    color: red; */
+
+
+.links:active{
+    background: #bc2035;
+    color: white;
+}
+
+.links:visited{
+    border: #ddd;
+    color: #ddd;
+}
