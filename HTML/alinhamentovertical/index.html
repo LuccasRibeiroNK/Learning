@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Trabalhando com alinhamente vertical</title>
+
+    <style type="text/css">
+        body {
+            font-size: 1.2rem;
+        }
+
+        .card {
+            position: relative;
+            float: left;
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+        .card2{
+            clear: left;
+            float: left;
+            border: 2px solid green;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+        
+
+        .c1 {
+
+            line-height: 200px;
+        }
+
+        .c2 {
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            /* transform: translateY(-50%);
+            transform: translateX(-50%); */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="c1">
+            Igor Oliveira</div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Igor Oliveira </div>
+    </div>
+
+    <div>
+
+        <div class="card2">
+            Igor Oliveira
+
+        </div>
+
+    </div>
+
+<a href="www.google.com"> google </a>
+
+
+</body>
+
+</html>
